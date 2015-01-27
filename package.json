@@ -1,0 +1,24 @@
+{
+  "name": "adb_test",
+  "version": "0.0.1",
+  "description": "adb_test",
+  "main": "index.js",
+  "author": "xiaowuming",
+  "bin": {
+    "adb_test": "bin.js"
+  },
+  "repository": {},
+  "engines": {
+    "node": "*"
+  },
+  "keywords": [
+    "adb_test"
+  ],
+  "dependencies": {
+    "adbkit": "~2.1.6",
+    "bluebird": "~2.9.3",
+    "express": "~4.11.1",
+    "node-mac": "~0.1.3"
+  },
+  "defDependencies": []
+}
